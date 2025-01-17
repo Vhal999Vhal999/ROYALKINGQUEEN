@@ -26,21 +26,21 @@ from config import BANNED_USERS
 from strings import get_string
 
 NEXIO = [
-    "https://files.catbox.moe/jrupn9.jpg",
-    "https://files.catbox.moe/5z141p.jpg",
-    "https://files.catbox.moe/fnl0h7.jpg",
-    "https://files.catbox.moe/1lz1go.jpg",
-    "https://files.catbox.moe/avackl.jpg",
-    "https://files.catbox.moe/1yrzwz.jpg",
-    "https://files.catbox.moe/6y22qw.jpg",
-    "https://files.catbox.moe/gnnsf2.jpg",
-    "https://files.catbox.moe/ss6r60.jpg",
-    "https://files.catbox.moe/yuob18.jpg",
-    "https://files.catbox.moe/i9xrrp.jpg",
-    "https://files.catbox.moe/a9tx8f.jpg"
-    "https://files.catbox.moe/wlt26x.jpg",
-    "https://files.catbox.moe/c1lylh.jpg",
-    "https://files.catbox.moe/82eymp.jpg",
+    "https://files.catbox.moe/g01ybl.jpg",
+    "https://files.catbox.moe/49f5mp.jpg",
+    "https://files.catbox.moe/g01ybl.jpg",
+    "https://files.catbox.moe/yefz4f.jpg",
+    "https://files.catbox.moe/49f5mp.jpg",
+    "https://files.catbox.moe/g01ybl.jpg",
+    "https://files.catbox.moe/yefz4f.jpg",
+    "https://files.catbox.moe/g01ybl.jpg",
+    "https://files.catbox.moe/yefz4f.jpg",
+    "https://files.catbox.moe/yefz4f.jpg",
+    "https://files.catbox.moe/49f5mp.jpg",
+    "https://files.catbox.moe/yefz4f.jpg"
+    "https://files.catbox.moe/49f5mp.jpg",
+    "https://files.catbox.moe/yefz4f.jpg",
+    "https://files.catbox.moe/49f5mp.jpg",
 ]
 
 HIMANSHI = [
@@ -83,7 +83,7 @@ async def start_pm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("💙")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
